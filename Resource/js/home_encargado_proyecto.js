@@ -59,7 +59,7 @@ $('.collection-menu-documentos-items .type-document').on('click', function(){
         $('.document-viewer').slideDown(200);
         $('.others-documents').slideUp(50);
     }else if( type_document == "Plan de trabajo" ){
-        name_document = name_document + "Informe_IDHMunicipal-completo.pdf";
+        name_document = name_document + "plan_de_trabajo.pdf";
         $('.document-viewer').slideDown(200);
         $('.others-documents').slideUp(50);
     }else if( type_document == "Otros documentos" ){
