@@ -100,5 +100,3 @@ $('.btn-confirm-delete').on('click', function(){
 });
 
 
-
-

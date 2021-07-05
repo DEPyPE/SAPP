@@ -27,7 +27,7 @@ body{
 
 /* SECCIÓN DE PROYECTOS REGISTRADOS */
 .collection > .collection-item:hover{
-	background-color: rgb(245, 245, 245);
+	background-color: rgb(245, 245, 245) !important;
 	cursor: pointer;
 }
 
@@ -37,7 +37,7 @@ body{
 }
 
 .collection-active{
-	background-color: rgb(230, 230, 230) !important;
+	background-color: rgb(245, 245, 245) !important;
 }
 
 .collection-projects-registered{
@@ -80,10 +80,6 @@ body{
 	padding-right: 0px !important;
 }
 
-.tabs-docs-recomendations{
-	box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%) !important;
-}
-
 .btn-delete-document{
 	margin-top: -5px !important;
 	margin-left: 5px !important;
@@ -100,3 +96,42 @@ body{
 .btn-validate-document{
 	margin-top: 5px !important;
 }
+
+/* BARRAS DE PROGRESO POR PROYECTO */
+
+.progress-bar-container{
+	width: 100%;
+}
+
+.percentage-progress{
+	text-align: center;
+	margin-top: 8px !important;
+	width: 6%;
+	float: left;
+	font-weight: bold;
+}
+
+.progress-per-project-container{
+	margin-top: 10px !important;
+	width: 94%;
+	height: 15px !important;
+	border-radius: 8px;
+	float: left;
+}
+
+.progress-per-project{
+	height: 15px !important;
+	border-radius: 8px;
+}
+
+.progress-step-per-project{
+	margin-top: 0px !important;
+	margin-bottom: 3% !important;
+}
+
+.btn-open-project{
+	margin-top: 20px;
+}
+
+
+

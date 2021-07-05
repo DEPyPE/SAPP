@@ -16,13 +16,13 @@
             <div class="row row-menu-and-title">
                 <div class="col l1"></div>
                 <div class="col l10">
-                    <a href="#" class="brand-logo">Evaluación<i class="large material-icons icon-title left">assignment</i></a>
+                    <a href="#" class="brand-logo">Evaluación de proyectos<i class="large material-icons icon-title left">assignment</i></a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="home_evaluacion.html"><i class="material-icons left">home</i>Inicio</a></li>
                         <li><a href=""><i class="material-icons left">notifications_none</i>Notificaciones<span class="notification-alert">10</span></a></li>
                         <li><a href="index.html"><i class="material-icons left icon-exit-session">exit_to_app</i>Cerrar sesión</a></li>
 <!--
-                        <li><a href="usuario_encargado_programa_proyecto.html"><i class="material-icons left">home</i>Inicio</a></li>
                         <li><a class="dropdown-trigger" data-target="menu-contenido-evaluacion">Menú de opciones<i class="material-icons right">keyboard_arrow_down</i></a></li>
 -->
                     </ul>
@@ -117,61 +117,35 @@
             <div class="col l1"></div>
 
             <div class="col l3">
-                <div class="collection with-header collection-projects-registered">
-                    <a class="collection-item" href="horizonte_de_oportunidades.html">Horizonte de oportunidades (Q3058)<i class="material-icons right">chevron_right</i> </a>
-                    <a class="collection-item" href="prepa_dual.html">Prepa dual (Q9823)<i class="material-icons right">chevron_right</i></a>
-                    <a class="collection-item" href="citec_gto.html">CiTeG GTO (Q2186)<i class="material-icons right">chevron_right</i></a>
-                    <a class="collection-item" href="vivencia_educativa.html">Vivencia Educativa (Q1109)<i class="material-icons right">chevron_right</i></a>
-                    <a class="collection-item" href="vocacion_docentes.html">Vocación Docente (Q1614)<i class="material-icons right">chevron_right</i></a>
-                </div>
+                <ul class="collection with-header collection-projects-registered">
+                    <li class="collection-item">Horizonte de oportunidades (Q3058)<i class="material-icons right">_chevron_right</i> </li>
+                    <li class="collection-item">Prepa dual (Q9823)<i class="material-icons right">_chevron_right</i></li>
+                    <li class="collection-item">CiTeG GTO (Q2186)<i class="material-icons right">_chevron_right</i></li>
+                    <li class="collection-item">Vivencia Educativa (Q1109)<i class="material-icons right">_chevron_right</i></li>
+                    <li class="collection-item">Vocación Docente (Q1614)<i class="material-icons right">_chevron_right</i></li>
+                </ul>
             </div>
 
             <div class="col l7">
 
-                <ul class="tabs tabs-docs-recomendations">
-                    <li class="tab col s4"><a href="#documents">Formato de posicionamiento</a></li>
-                    <li class="tab col s4"><a href="#evidence">Documentos de evidencias</a></li>
-                    <li class="tab col s4"><a href="#recomendations-elements">Recomendaciones</a></li>
-                </ul>
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title center-align"> <h5> Avance general del proyecto "<span class="title-project-progress"></span>" </h5> </span><br>
 
-                <div id="documents" class="col s12 l12">
-                    <embed class="document-show" src="Resource/files/Formato de posicionamiento_2019.pdf" type="application/pdf" />
-                    <a class="btn waves-effect cyan darken-3 btn-validate-document right"><i class="material-icons left">check</i> Validar formato de posicionamiento</a>
-                </div>
+                        <h6 class="progress-step-per-project">
+                            Etapa: <span class="progress-step-per-project-title">Validación de documentos</span>
+                        </h6>
 
-                <div id="evidence" class="col s12 l12">
-                    <ul class="collection collection-documents-evidence with-header">
-                        <li class="collection-item collection-documents-evidence-item"> <a class="evidence-document">Formato de posicionamiento_2019.pdf</a>   <i class="material-icons left">description</i>  <a href="#modal-confirm-delete-document" class="btn-floating waves-effect cyan lighten-1 btn-small modal-trigger right btn-delete-document"><i class="material-icons">file_download</i></a> </li>
-                        <li class="collection-item collection-documents-evidence-item"> <a class="evidence-document">Formato de posicionamiento_ 2019.docx</a> <i class="material-icons left">description</i>  <a href="#modal-confirm-delete-document" class="btn-floating waves-effect cyan lighten-1 btn-small modal-trigger right btn-delete-document"><i class="material-icons">file_download</i></a> </li>
-                    </ul>
-                </div>
+                        <div class="progress-bar-container">
+                            <h6 class="percentage-progress"></h6>
+                            <div class="progress progress-per-project-container">
+                                <div class="determinate progress-per-project"></div>
+                            </div>
+                        </div>
 
-                <div id="recomendations-elements" class="col s12 l12">
-                    <ul class="collapsible popout collapsible-posicionamiento">
-                        <li>
-                          <div class="collapsible-header"><i class="material-icons right">expand_more</i>1. Recomendaciones o Aspectos susceptibles de mejora</div>
-                          <div class="collapsible-body">
-                              <div class="collection">
-                                <a href="#modal-recomendation-description" class="collection-item truncate modal-trigger"><i class="id_recomendation">ID: 0000</i> <i class="recomendation"> - 1. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet corrupti hic, excepturi similique consequuntur cumque exercitationem dolor illum voluptas amet in rem adipisci labore vitae itaque fugit optio voluptatum quis!.</i> </a>
-                                <a href="#modal-recomendation-description" class="collection-item truncate modal-trigger"><i class="id_recomendation">ID: 0000</i> <i class="recomendation"> - 2. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet corrupti hic, excepturi similique consequuntur cumque exercitationem dolor illum voluptas amet in rem adipisci labore vitae itaque fugit optio voluptatum quis!.</i> </a>
-                                <a href="#modal-recomendation-description" class="collection-item truncate modal-trigger"><i class="id_recomendation">ID: 0000</i> <i class="recomendation"> - 3. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet corrupti hic, excepturi similique consequuntur cumque exercitationem dolor illum voluptas amet in rem adipisci labore vitae itaque fugit optio voluptatum quis!. </i> </a>
-                                <a href="#modal-recomendation-description" class="collection-item truncate modal-trigger"><i class="id_recomendation">ID: 0000</i> <i class="recomendation"> - 4. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet corrupti hic, excepturi similique consequuntur cumque exercitationem dolor illum voluptas amet in rem adipisci labore vitae itaque fugit optio voluptatum quis!. </i> </a>
-                              </div>
-                          </div>
-                        </li>
-  
-                        <li>
-                          <div class="collapsible-header"><i class="material-icons right">expand_more</i>2. Recomendaciones o Aspectos susceptibles de mejora</div>
-                          <div class="collapsible-body"> - 
-                              <div class="collection">
-                                  <a href="#modal-recomendation-description" class="collection-item truncate modal-trigger"><i class="id_recomendation">ID: 0000</i> <i class="recomendation"> - 1. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet corrupti hic, excepturi similique consequuntur cumque exercitationem dolor illum voluptas amet in rem adipisci labore vitae itaque fugit optio voluptatum quis!.</i> </a>
-                                  <a href="#modal-recomendation-description" class="collection-item truncate modal-trigger"><i class="id_recomendation">ID: 0000</i> <i class="recomendation"> - 2. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet corrupti hic, excepturi similique consequuntur cumque exercitationem dolor illum voluptas amet in rem adipisci labore vitae itaque fugit optio voluptatum quis!.</i> </a>
-                                  <a href="#modal-recomendation-description" class="collection-item truncate modal-trigger"><i class="id_recomendation">ID: 0000</i> <i class="recomendation"> - 3. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet corrupti hic, excepturi similique consequuntur cumque exercitationem dolor illum voluptas amet in rem adipisci labore vitae itaque fugit optio voluptatum quis!. </i> </a>
-                                  <a href="#modal-recomendation-description" class="collection-item truncate modal-trigger"><i class="id_recomendation">ID: 0000</i> <i class="recomendation"> - 4. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet corrupti hic, excepturi similique consequuntur cumque exercitationem dolor illum voluptas amet in rem adipisci labore vitae itaque fugit optio voluptatum quis!. </i> </a>
-                              </div>
-                          </div>
-                        </li>
-                    </ul>
+                        <a class="waves-effect btn grey lighten-3 black-text btn-open-project">Revisar proyecto completo <i class="material-icons right">launch</i></a>
+
+                    </div>
                 </div>
 
             </div>
@@ -227,7 +201,7 @@
     <script src="Resource/Materialize/materialize.min.js"></script>
 
     <!-- Scripts of JS -->
-    <script src="Resource/js/home_planeacion.js"></script>
+    <script src="Resource/js/home_evaluacion.js"></script>
 </body>
 </html>
 

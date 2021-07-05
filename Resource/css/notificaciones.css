@@ -1,0 +1,21 @@
+
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+.date-table-notification{
+    width: 17% !important;
+}
+
+.hour-table-notification{
+    width: 8% !important;
+    text-align: center !important;
+}
+
+.action-table-notification{
+    width: 15% !important;
+}
+
+.activitie-table-notification{
+    width: 60% !important;
+}
