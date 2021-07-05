@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(210, 210, 210) !important;
+    background-color: rgb(240, 240, 240) !important;
     margin: 0 !important;
     padding: 0 !important;
 }
@@ -14,12 +14,20 @@ body{
 
 /* TARJETA DE INICIO DE SESIÓN */
 
+.card-login{
+    border-radius: 10px !important;
+}
+
 .btn-login, .btn-register{
     width: 100% !important;
 }
 
 .btn-login{
     margin-bottom: 8px;
+}
+
+.title-login{
+    margin: 0 !important;
 }
 
 /* CAJAS DE TEXTO PARA EL LOGIN O LOS CAMPOS DE REGISTRO */
@@ -58,6 +66,24 @@ body{
 }
 
 /* SLIDES */
+
+.slider-content{
+    border-radius: 10px !important;
+}
+
+.card-slider{
+    background-color: rgba(240, 240, 240, 1);
+    box-shadow: 0 0 0 0 !important;
+}
+
+.card-slider-content{
+    padding: 0 !important;
+}
+
+.slides-content{
+    border-radius: 10px !important;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%) !important;
+}
 
 .background-slide{
     background-color: rgba(0, 0, 0, 0.3);

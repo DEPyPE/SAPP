@@ -7,6 +7,10 @@ body{
 	background-color: rgb(210, 210, 210) !important;
 }
 
+.col-option{
+	height: 10% !important;
+}
+
 /* MENU PRINCIPAL */
 .icon-exit-session{
     transform: rotate(180deg);

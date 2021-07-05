@@ -12,9 +12,9 @@ $(function () {
 
 /*  Inicialización de elementos del proyecto*/
     $('.title-project').text(ProjectName);
-
-    $('.collapsible-posicionamiento-asm').slideDown(200);
-    $('.collapsible-plan-de-trabajo-asm').slideUp(50);
+    $('.collection-menu-documentos-items .type-document')[0].click();   
+    $('.collection-step-menu .collection-item')[0].click();
+    
     console.log('Ready');
 });
 
