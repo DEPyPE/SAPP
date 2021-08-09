@@ -7,6 +7,7 @@ $(function(){
     $('.modal').modal();
     $(".dropdown-trigger").dropdown();
     $('.slider').slider();
+    $('select').formSelect();
 });
 
 $('.btn-login').on('click', function(){

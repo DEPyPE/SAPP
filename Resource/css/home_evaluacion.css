@@ -4,11 +4,17 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: rgb(210, 210, 210) !important;
+/*	background-color: rgba(224, 247, 250, 0.3) !important; */
+	background-color: #e7e7e7 !important;
 }
 
 .col-option{
 	height: 10% !important;
+}
+
+/* COLOR CARD AND CONTAINERS */
+.background-elements{
+	background-color: rgba(224, 242, 241, 1) !important;
 }
 
 /* MENU PRINCIPAL */
@@ -29,9 +35,29 @@ body{
 	font-weight: normal;
 }
 
+/* SECCIÓN PARA ESCOGER EL EJERCICIO FIZCAL */
+
+.card-title-ejercicio-fizcal{
+	margin-top: 6px;
+	font-size: 22px !important;
+}
+
+.select-ejercicio-fizcal{
+	font-size: 17px !important;
+}
+
+.container-ejercicio-fizcal{
+	margin-bottom: 0px;
+}
+
 /* SECCIÓN DE PROYECTOS REGISTRADOS */
+
+.collection-projects-registered{
+	box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%) !important;
+}
+
 .collection > .collection-item:hover{
-	background-color: rgb(245, 245, 245) !important;
+	background-color: rgb(240, 240, 240) !important;
 	cursor: pointer;
 }
 
@@ -41,7 +67,7 @@ body{
 }
 
 .collection-active{
-	background-color: rgb(245, 245, 245) !important;
+	background-color: rgb(240, 240, 240) !important;
 }
 
 .collection-projects-registered{
@@ -56,7 +82,7 @@ body{
 /* MOSTRAR INFORMACIÓN DE CADA PROYECTO REGISTRADO */
 
 .collapsible-posicionamiento .collapsible-header:hover{
-	background-color: rgb(245, 245, 245);
+	background-color: rgb(235, 235, 235);
 }
 
 .collapsible-body{

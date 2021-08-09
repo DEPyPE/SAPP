@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <nav class="nav-extended cyan darken-3">
+    <nav class="nav-extended cyan darken-4">
         <div class="nav-wrapper">
             <div class="row row-menu-and-title">
                 <div class="col l1"></div>
@@ -19,12 +19,11 @@
                     <a href="#" class="brand-logo">Evaluación de proyectos<i class="large material-icons icon-title left">assignment</i></a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="home_evaluacion.html"><i class="material-icons left">home</i>Inicio</a></li>
+<!--                    <li><a href="home_evaluacion.html"><i class="material-icons left">home</i>Inicio</a></li> -->
                         <li><a href=""><i class="material-icons left">notifications_none</i>Notificaciones<span class="notification-alert">10</span></a></li>
+<!--                    <li><a class="dropdown-trigger" data-target="menu-contenido-evaluacion">Ejercicio fizcal<i class="material-icons right">keyboard_arrow_down</i></a></li> -->
                         <li><a href="index.html"><i class="material-icons left icon-exit-session">exit_to_app</i>Cerrar sesión</a></li>
-<!--
-                        <li><a class="dropdown-trigger" data-target="menu-contenido-evaluacion">Menú de opciones<i class="material-icons right">keyboard_arrow_down</i></a></li>
--->
+
                     </ul>
                 </div>
                 <div class="col l1"></div>
@@ -45,10 +44,9 @@
         </div>
 <!--
         <ul id="menu-contenido-evaluacion" class="dropdown-content">
-            <li><a href="#!"><i class="material-icons left">assignment_turned_in</i>Opción 1</a></li>
-            <li><a href="#!"><i class="material-icons left">assignment_turned_in</i>Opción 2</a></li>
-            <li class="divider"></li>
-            <li><a href=""><i class="material-icons left icon-exit-session">exit_to_app</i>Cerrar sesión</a></li>
+            <li><a href="#!"><i class="material-icons left">assignment_turned_in</i>2019</a></li>
+            <li><a href="#!"><i class="material-icons left">assignment_turned_in</i>2020</a></li>
+            <li><a href="#!"><i class="material-icons left">assignment_turned_in</i>2021</a></li>
         </ul>
 -->
     </nav>
@@ -117,12 +115,33 @@
             <div class="col l1"></div>
 
             <div class="col l3">
+                <div class="card">
+                    <div class="card-content card-ejercicio-fizcal">
+
+                        <div class="row container-ejercicio-fizcal">
+                            <div class="col l6">
+                                <div class="card-title card-title-ejercicio-fizcal">Ejercicio fizcal:</div>
+                            </div>
+                            <div class="col l6">
+                                <select class="browser-default select-ejercicio-fizcal">
+                                    <option value="1">2017</option>
+                                    <option value="2">2018</option>
+                                    <option value="3">2019</option>
+                                    <option value="4">2020</option>
+                                    <option value="5">2021</option>
+                                  </select>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
                 <ul class="collection with-header collection-projects-registered">
-                    <li class="collection-item">Horizonte de oportunidades (Q3058)<i class="material-icons right">_chevron_right</i> </li>
-                    <li class="collection-item">Prepa dual (Q9823)<i class="material-icons right">_chevron_right</i></li>
-                    <li class="collection-item">CiTeG GTO (Q2186)<i class="material-icons right">_chevron_right</i></li>
-                    <li class="collection-item">Vivencia Educativa (Q1109)<i class="material-icons right">_chevron_right</i></li>
-                    <li class="collection-item">Vocación Docente (Q1614)<i class="material-icons right">_chevron_right</i></li>
+                    <li class="collection-item">(Q3058) Horizonte de oportunidades<i class="material-icons right">_chevron_right</i> </li>
+                    <li class="collection-item">(Q9823) Prepa dual<i class="material-icons right">_chevron_right</i></li>
+                    <li class="collection-item">(Q2186) CiTeG GTO<i class="material-icons right">_chevron_right</i></li>
+                    <li class="collection-item">(Q1109) Vivencia Educativa<i class="material-icons right">_chevron_right</i></li>
+                    <li class="collection-item">(Q1614) Vocación Docente<i class="material-icons right">_chevron_right</i></li>
                 </ul>
             </div>
 
@@ -137,7 +156,7 @@
                         </h6>
 
                         <div class="progress-bar-container">
-                            <h6 class="percentage-progress"></h6>
+                            <h6 class="percentage-progress">0%</h6>
                             <div class="progress progress-per-project-container">
                                 <div class="determinate progress-per-project"></div>
                             </div>
