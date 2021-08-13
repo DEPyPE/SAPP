@@ -12,6 +12,18 @@ body{
 	height: 10% !important;
 }
 
+/* MENU DE OPCIONES */
+
+.seg-logo{
+    margin-right: 10px;
+    width: 129px;
+    border-radius: 50px;
+}
+
+nav .brand-logo {
+    width: 40% !important;
+}
+
 /* COLOR CARD AND CONTAINERS */
 .background-elements{
 	background-color: rgba(224, 242, 241, 1) !important;

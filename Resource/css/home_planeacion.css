@@ -6,7 +6,14 @@ body{
 	background-color: rgb(210, 210, 210) !important;
 }
 
-/* MENU PRINCIPAL */
+/* MENU DE OPCIONES */
+
+.seg-logo{
+    margin-right: 10px;
+    width: 129px;
+    border-radius: 50px;
+}
+
 .icon-exit-session{
     transform: rotate(180deg);
 }

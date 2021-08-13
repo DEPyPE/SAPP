@@ -5,6 +5,14 @@ body{
 	background-color: #e7e7e7 !important;
 }
 
+/* MENU DE OPCIONES */
+
+.seg-logo{
+    margin-right: 10px;
+    width: 129px;
+    border-radius: 50px;
+}
+
 /* ESTILOS DEL MENU */
 
 .notification-alert{
