@@ -1,6 +1,8 @@
 
-var UserData    = JSON.parse( localStorage.getItem("UserData") );
-var ProjectInfo = JSON.parse( localStorage.getItem("ProjectInfo") );
+//var UserData    = JSON.parse( localStorage.getItem("UserData") );
+//var ProjectInfo = JSON.parse( localStorage.getItem("ProjectInfo") );
+
+var 
 
 function ShowInformationProject(){
 
